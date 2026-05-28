@@ -207,7 +207,8 @@ main img{
 
     .card {
 
-        width: 90px;
+        box-sizing: border-box;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -225,8 +226,14 @@ main img{
 
     .info {
 
+        box-sizing: border-box;
+        padding: 10px;
         width: 100%;
         text-align: center;
+    }
+
+    H1{
+        font-size: 50px;
     }
 
 }
