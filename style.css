@@ -205,4 +205,28 @@ main img{
         padding: 15px;
     }
 
+    .card {
+
+        width: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .card img {
+        width: 80%;
+        height: auto;
+
+
+
+    }
+
+    .info {
+
+        width: 100%;
+        text-align: center;
+    }
+
 }
